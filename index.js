@@ -108,7 +108,7 @@ function createHarness (conf_) {
         results.once('done', function () { results.close() });
     }
     
-    var test = function (name, conf, cb) {
+    var test = function tapeTest(name, conf, cb) {
         var t = new Test(name, conf, cb);
         test._tests.push(t);
         
