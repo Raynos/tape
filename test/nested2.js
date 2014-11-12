@@ -10,7 +10,6 @@ test(function(t) {
         })
     })
 
-
     t.test('teardown', function(t) {
         t.end()
     })
